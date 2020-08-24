@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: auto;
+  background-color: green;
+  height: 450px;
+  width: 450px;
+}
+
+h1 {
+  font-family: futura;
+  color: white;
+  text-align: center;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+#reset {
+  margin-top: 10px;
+  padding: 2px;
+  border-radius: 4px;
+  width: 100px;
+}
+
+button.square {
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  flex: 0 0 150px;
+  justify-content: center;
+  align-content: center;
+}
+
+button.square:hover {
+  cursor: pointer;
+}
+
+/* button {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+} */
+
+.marker {
+  font-size: xx-large;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
